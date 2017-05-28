@@ -2,7 +2,9 @@ package hello;
 
 public class HelloWorld{
 	public static void main(String[] args){
-		String hobby = "Ä½¿Î";
-		System.out.println(hobby);
+		String cnWord = "ÎÒ°®Ä½¿Î";
+		String enWord = "I love imooc";
+		System.out.println(cnWord);
+		System.out.println(enWord);
 	}
 }
