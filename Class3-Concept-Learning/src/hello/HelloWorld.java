@@ -2,20 +2,13 @@ package hello;
 
 public class HelloWorld{
     public static void main(String[] args) {
-	    int one = 10 ;
-        int two = 20 ;
-        int three = 0 ;
-        three = one + two;
-        System.out.println("three = one + two ==> "+three);
-        three += one;
-        System.out.println("three += one ==>"+three);
-        three -= one;
-        System.out.println("three -= one ==>"+three);
-        three *= one;
-        System.out.println("three *= one ==>"+three);
-        three /= one;
-        System.out.println("three /= one ==>"+three);
-        three %= one;
-        System.out.println("three %= one ==>"+three);
+		int a=16;
+		double b=9.5;
+		String str1="hello";
+		String str2="imooc";
+		System.out.println("a等于b：" + (a == b));
+		System.out.println("a大于b：" + (a > b));
+		System.out.println("a小于等于b：" + (a <= b));
+		System.out.println("str1等于str2：" + (str1 == str2));
 	}
 }
