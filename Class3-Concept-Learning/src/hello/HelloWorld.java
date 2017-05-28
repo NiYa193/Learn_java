@@ -2,14 +2,7 @@ package hello;
 
 public class HelloWorld{
 	public static void main(String[] args){
-		String name = "爱慕课";
-		char sex = '男';
-		int awardNum = 18;
-		double price = 120.5;
-		boolean shutFlag = true;
-		System.out.println(name);
-		System.out.println(sex);
-		System.out.println(awardNum);
-		System.out.println(shutFlag);
+		String city = "山东";
+		System.out.println("我的家乡在"+city);
 	}
 }
