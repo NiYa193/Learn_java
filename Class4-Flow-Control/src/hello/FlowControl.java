@@ -2,9 +2,11 @@ package hello;
 
 public class FlowControl{
 	public static void main(String[] args){
-		int score = 95;
-		if(score > 90){
-			System.out.println("成绩优秀");
+		int age = 25;
+		if(age > 18){
+			System.out.println("成年");
+		}else{
+			System.out.println("未成年");
 		}
 	}
 }
