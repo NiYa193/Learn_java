@@ -2,15 +2,14 @@ package hello;
 
 public class FlowControl{
 	public static void main(String[] args){
-		int age = 25;
-		if(age > 60){
-			System.out.println("成年");
-		}else if(age > 40){
-			System.out.println("中年");
-		}else if(age > 18){
-			System.out.println("少年");
-		}else{
-			System.out.println("童年");
+		int score = 94;
+		String sex = "女";
+		if(score > 80){
+			if(sex == "女"){
+				System.out.println("进入女子组决赛");
+			}else{
+				System.out.println("进入男子组决赛");
+			}
 		}
 	}
 }
