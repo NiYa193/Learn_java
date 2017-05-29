@@ -2,12 +2,12 @@ package hello;
 
 public class FlowControl{
 	public static void main(String[] args){
-		int num = 2;
 		int sum = 0;
-		do{
-			sum += num;
-			num += 2;
-		}while(num <= 50);
-		System.out.println("The sum is:"+sum);
+		for(int i = 0; i <= 100; i++){
+			if(i % 3 != 0){
+				sum += i; 
+			}
+		}
+		System.out.println("1到100之间不能被3整除的数之和为："+sum);
 	}
 }
