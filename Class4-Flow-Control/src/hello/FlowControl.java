@@ -1,13 +1,12 @@
 package hello;
 
 public class FlowControl{
-	public static void main(String[]args){
-		System.out.println("双重循环实现打印三角形");
-		for(int i = 0; i < 3; i++){
-			for(int j = 0; j <= i; j++){
-				System.out.print("*");
-			}
-			System.out.println();
+	public static void main(String[] args){
+		int num = 999;
+		int count = 0;
+		for(; num != 0; num /= 10){
+			count++;
 		}
+		System.out.println("它是个"+count+"位的数");
 	}
 }
