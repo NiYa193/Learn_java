@@ -1,15 +1,15 @@
 package hello;
 
-import java.util.Arrays;
-
 public class FlowControl{
 	public static void main(String[] args) {
-		int[] scores = { 89, 72, 64, 58, 93};
-		//对数组进行排序
-		Arrays.sort(scores);
-		//使用foreach对数组元素进行输出
-		for(int score : scores){
-			System.out.println(score);
+		//定义二维字符数组
+		String[][] names = {{"tom", "jack", "mike"}, {"zhangsan", "lisi", "wanger"}};
+		//采用双重循环对数组进行输出
+		for(int i = 0; i < names.length; i++){
+			for(int j = 0; j < names[i].length; j++){
+				System.out.println(names[i][j]);
+			}
+			System.out.println();
 		}
 	}
 }
