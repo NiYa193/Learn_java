@@ -1,17 +1,24 @@
 package hello;
-import java.util.Arrays;
 
 public class idea{
-	public static void main(String[] args) {
-		int[] stuScores = {79, 52, 98, 81};
-		idea fcc = new idea();
-		int stuNum = fcc.sortArray(stuScores);
-		System.out.println("共有"+stuNum+"个成绩信息！");
+    public static void main(String[] args) {
+		// 创建对象
+		idea hello = new idea();
+		// 调用无参的方法
+		hello.print();
+		// 调用带有一个字符串参数的方法
+	    hello.print("Doudou I love you");
+		// 调用带有一个整型参数的方法
+	    hello.print(23);
 	}
-	
-	public int sortArray(int scores[]){
-		Arrays.sort(scores);
-		System.out.println(Arrays.toString(scores));
-		return scores.length;
+
+	public void print() {
+		System.out.println("无参的print方法");
+	}
+	public void print(String name) {
+		System.out.println("带有一个字符串参数的print方法，参数值为：" + name);
+	}
+	public void print(int age) {
+		System.out.println("带有一个整型参数的print方法，参数值为：" + age);
 	}
 }
