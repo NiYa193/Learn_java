@@ -2,15 +2,14 @@ package hello;
 
 import java.util.Arrays;
 
-public class FlowControl {
-    public static void main(String[] args) {
-		// 定义一个整型数组，并赋初值
-		String[] nums = new String[] {"sports", "game", "movie"};
-		//对数组内元素进行排序，从小到大
-		Arrays.sort(nums);
-		for(int i = 0; i < nums.length; i++){
-			System.out.println(nums[i]);
+public class FlowControl{
+	public static void main(String[] args) {
+		int[] scores = { 89, 72, 64, 58, 93};
+		//对数组进行排序
+		Arrays.sort(scores);
+		//使用foreach对数组元素进行输出
+		for(int score : scores){
+			System.out.println(score);
 		}
-		System.out.println("组合后的字符串为："+Arrays.toString(nums));
 	}
 }
