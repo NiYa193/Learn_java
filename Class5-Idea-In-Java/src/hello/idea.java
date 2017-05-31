@@ -1,13 +1,17 @@
 package hello;
+import java.util.Arrays;
 
 public class idea{
 	public static void main(String[] args) {
+		int[] stuScores = {79, 52, 98, 81};
 		idea fcc = new idea();
-		fcc.calcAvg(99, 96);
+		int stuNum = fcc.sortArray(stuScores);
+		System.out.println("共有"+stuNum+"个成绩信息！");
 	}
-	//添加一个没有返回值，但是有参数的方法
-	public void calcAvg(double javaScore, double phpScore){
-		double avg = (javaScore + phpScore) / 2;
-		System.out.println("平均分："+avg);
+	
+	public int sortArray(int scores[]){
+		Arrays.sort(scores);
+		System.out.println(Arrays.toString(scores));
+		return scores.length;
 	}
 }
