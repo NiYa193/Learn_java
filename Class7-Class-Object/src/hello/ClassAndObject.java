@@ -11,12 +11,6 @@ public class ClassAndObject {
 		System.out.println("Telephone有打电话的功能！");
 	}
 	void sentMessage(){
-		System.out.println("Telephone有发短信的功能！");
-	}
-	public static void main(String[] args) {
-		//main函数中调用这两个方法
-		ClassAndObject fcc = new ClassAndObject();
-		fcc.call();
-		fcc.sentMessage();
+		System.out.println("screen:"+screen+" cpu:"+cpu+" memory:"+memory+" Telephone有发短信的功能！");
 	}
 }
