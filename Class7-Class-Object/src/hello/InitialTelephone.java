@@ -9,6 +9,6 @@ public class InitialTelephone {
 		phone.screen = 5.0f;
 		phone.cpu = 1.4f;
 		phone.memory = 2.0f;
-		phone.sentMessage();
+		phone.call();
 	}
 }
