@@ -8,6 +8,7 @@ public class Telephone{
 		System.out.println("无参的构造方法执行了！");
 	}
 	//可直接再次定义，类似方法的重载
+	//如果将无参的构造方法注释掉，则系统不会自动添加无参的构造方法
 	public Telephone(float newScreen, float newCpu, float newMemory){
 		if(newScreen < 3.5f){
 			screen = 3.5f;
