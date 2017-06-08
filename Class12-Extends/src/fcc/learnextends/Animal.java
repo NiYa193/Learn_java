@@ -5,6 +5,6 @@ public class Animal {
 	int age;
 	String name;
 	public void eat(){
-		System.out.println("动物具有吃的能力！");
+		System.out.println("age: "+age+"\nname: "+name+"\n动物具有吃的能力！");
 	}
 }
