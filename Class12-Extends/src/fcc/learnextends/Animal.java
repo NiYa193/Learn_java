@@ -9,9 +9,13 @@ public class Animal {
 	public void eat(){
 		System.out.println("age: "+age+"\nname: "+name+"\n动物具有吃的能力！");
 	}
-	public Animal(){
+	/*public Animal(){
 		System.out.println("Animal的构造执行了！");
 		age = 20;
 		System.out.println("Animal构造中将age赋值为20！");
+	}*/
+	public Animal(int age){
+		//此处新建一个有参的构造方法，用于测试super对于显式调用的关系！
+		this.age = age;
 	}
 }
