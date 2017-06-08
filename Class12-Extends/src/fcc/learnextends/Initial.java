@@ -7,7 +7,9 @@ public class Initial {
 		//Animal animal = new Animal();
 		Dog dog = new Dog();
 		dog.name = "梁旭炮";
-		dog.eat();
+		//dog.eat();
 		System.out.println("Dog的eat函数执行了！");
+		dog.method();
+		System.out.println("Dog的method函数执行了！");
 	}
 }
