@@ -1,9 +1,11 @@
 package fcc.learnextends;
-
+//如果此处类改为用final修饰，则无法被继承
 public class Animal {
-	//如果使用private修饰，则无法在子类中使用。
+//final public class Animal{
+	//如果使用fianl修饰，则该age变为常量！
 	public int age = 10;
 	public String name;
+	//如果final修饰了父类中的方法，则子类中无法覆盖父类的方法
 	public void eat(){
 		System.out.println("age: "+age+"\nname: "+name+"\n动物具有吃的能力！");
 	}
