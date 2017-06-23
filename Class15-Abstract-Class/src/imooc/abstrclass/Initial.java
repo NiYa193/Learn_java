@@ -4,7 +4,7 @@ public class Initial {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Shape rect = new Rectangle();
+		Shape rect = new Rectangle();//多态
 		rect.Circumference();
 		rect.Area();
 		//System.out.println("矩形的周长是"+"");
